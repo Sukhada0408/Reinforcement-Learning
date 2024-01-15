@@ -1,0 +1,19 @@
+Task 3 - Q-Learning
+
+Answers:
+
+
+6) 	Training the Q-learning agent without noise:
+        a) Value at state (1, 5): 9.0
+        b) Optimal policy : yes
+        c) Name of parameter: learning rate
+
+7) 	Comparison of values for the start state:
+        1) Value of the start state after 300 episodes: 4.29
+        2) Average returns from the start state: -13.724835174287543
+		The values differ as the agent falls in the cliff in multiple episodes while exploring the grid. The penalty for falling in the grid is much more negative (-100)
+		than the reward for reaching the terminal state (+10). Hence the average value is negative. The actual value at the start state is 4.29 as it has found
+		a sub-optimal policy resulting in the terminal state (+10).
+
+8)  Faster converging algorithm? 
+		Qlearning converges in 8 iterations wheras Value Iteration converges in 10 iterations.

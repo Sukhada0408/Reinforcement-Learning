@@ -1,0 +1,30 @@
+Task 2 - Value Iteration
+
+Answers:
+
+
+6) 	Rounds of value iteration for start state to become non-zero: 4
+	Why? In the Value iteration algorithm, we consider Q-value of a state, which is the expected future rewards for that state.
+	We try to maximize the future reward for particular state for all possible actions. So after a certain noumber of iterations, the claue of the start
+	state becomes non-zero.
+
+7) 	Which parameter to change: Noise
+	Value of the changed parameter: By trial and error, the agent crosses the bridge fpr n=0.015 and does not cross the bridge for n=0.020.
+                                      So, the threshold value for noise is between 0.020 and 0.015.
+
+8)	Parameter values producing optimal policy types:
+	    a) -n 0.2 -d 0.3
+	    b) -n 0.1 -d 0.20
+	    c) -n 0.01 -d 0.9
+	    d) -n 0.2 -d 0.95
+	    e) -n 0.6 -d 0.90
+
+9) 		Policy Iteration: 						Value Iteration:
+	 							  	
+		- Converges faster						- Converges slower
+		- Policy iteration is explicitly divided into		- Value Iteration combines the two steps in the Policy iteration algorithm
+		steps: Policy evaluation and Policy Improvement 	into a single update step
+		- Can be computationally expensive 				- computationally cheaper
+		- Algorithm is more complex as compared 			- Algorithm is simpler as compared to Policy iteration
+		to Value iteration						
+
