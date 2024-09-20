@@ -1,1 +1,3 @@
-This repo contains reinforcement learning assignments for training the agent in different gridworlds.
+CartPole Assignment: The Cart Pole environment consists of pole attached to a cart via an unactuated joint. The cart can move back and forth on frictionless tracks. The goal is to move the cart along the tracks such that the pole does not topple over. The last part of the assignment consists of implementing a Deep Q-Network agent.
+
+Gridworld Assignment: The aim of this project is to train the agent to navigate the Grid world. This environment consists of two exits, bridge for the agent to move and cliffs which are to be avoided. The agent is trained using different alogrithms like Value Iteration, Policy Iteration and Q-Learning.
